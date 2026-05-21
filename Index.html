@@ -1,0 +1,111 @@
+
+<html>
+<head>
+    <title>Nusantara Delight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Nusantara Delight</a>
+        
+        <nav>
+            <div class="dropdown">
+                <button class="dropdown-btn">Makanan Utama</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Tradisional</a>
+                    <a href="utama-modern.html">Modern</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn">Cemilan</button>
+                <div class="dropdown-content">
+                    <a href="cemilan-asin.html">Asin & Gurih</a>
+                    <a href="cemilan-manis.html">Manis</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn">Minuman</button>
+                <div class="dropdown-content">
+                    <a href="minuman-dingin.html">Dingin</a>
+                    <a href="minuman-panas.html">Panas/Hangat</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn">Pencuci Mulut</button>
+                <div class="dropdown-content">
+                    <a href="dessert-kue.html">Kue</a>
+                    <a href="icecream.html">Es Krim</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn">Paket Hemat</button>
+                <div class="dropdown-content">
+                    <a href="paket-keluarga.html">Keluarga</a>
+                    <a href="paket-personal.html">Personal</a>
+                </div>
+            </div>
+        </nav>
+
+        <a href="register.html" class="btn-register">Register</a>
+    </header>
+
+    <div class="banner">
+        <h1>Selamat Datang di Toko Kuliner Kami!</h1>
+        <p>Menyediakan hidangan terbaik dengan cita rasa khas Nusantara.</p>
+    </div>
+
+    <div class="container">
+     <h2>Menu: Makanan Utama (Tradisional)</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80" alt="Rendang">
+                <h3>Rendang Daging</h3>
+                <p>Daging sapi empuk dimasak dengan rempah asli Padang.</p>
+                <div class="price">Rp 45.000</div>
+                <button class="btn-buy" onclick="beli('Rendang Daging')">Buy</button>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=400&q=80" alt="Nasi Goreng">
+                <h3>Nasi Goreng Spesial</h3>
+                <p>Nasi goreng kecap lengkap dengan telur dadar dan ayam.</p>
+                <div class="price">Rp 25.000</div>
+                <button class="btn-buy" onclick="beli('Nasi Goreng Spesial')">Buy</button>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=80" alt="Sate">
+                <h3>Sate Ayam Madura</h3>
+                <p>10 tusuk sate ayam empuk dipadu bumbu kacang lezat.</p>
+                <div class="price">Rp 30.000</div>
+                <button class="btn-buy" onclick="beli('Sate Ayam Madura')">Buy</button>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=400&q=80" alt="Soto">
+                <h3>Soto Ayam Lamongan</h3>
+                <p>Soto kuah kuning hangat dengan taburan koya gurih.</p>
+                <div class="price">Rp 22.000</div>
+                <button class="btn-buy" onclick="beli('Soto Ayam Lamongan')">Buy</button>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=400&q=80" alt="Gado-Gado">
+                <h3>Gado-Gado Jakarta</h3>
+                <p>Sayuran segar kukus disiram bumbu kacang kental manis.</p>
+                <div class="price">Rp 18.000</div>
+                <button class="btn-buy" onclick="beli('Gado-Gado Jakarta')">Buy</button>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=400&q=80" alt="Ayam Bakar">
+                <h3>Ayam Bakar Taliwang</h3>
+                <p>Ayam panggang bumbu pedas khas Lombok meresap sempurna.</p>
+                <div class="price">Rp 35.000</div>
+                <button class="btn-buy" onclick="beli('Ayam Bakar Taliwang')">Buy</button>
+            </div>
+        </div>
+
+    <footer>
+        <p>&copy; 2026 Nusantara Delight. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
